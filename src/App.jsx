@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./component/layout/layout";
-import Home from "./pages/Home";
-import About from "./pages/about";
-import Product from "./pages/product";
-import Service from "./pages/service";
-import Contact from "./pages/Contact";
-import Whatsapp from "./component/whatsapp"
+import Home from "./pages/home.jsx";
+import About from "./pages/about.jsx";
+import Product from "./pages/product.jsx";
+import Service from "./pages/service.jsx";
+import Contact from "./pages/contact.jsx";
+import Whatsapp from "./component/whatsapp.jsx"
 
 
 function App() {
