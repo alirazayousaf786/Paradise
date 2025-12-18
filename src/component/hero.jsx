@@ -6,7 +6,7 @@ import fimg from "../assets/f2.jpg"
 import bimg from "../assets/bridthday-1.jpg"
 import gimg2 from "../assets/f4.jpg"
 
-const FashionCarousel = () => {
+const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
 
@@ -180,4 +180,4 @@ const FashionCarousel = () => {
   );
 };
 
-export default FashionCarousel;
+export default Hero;

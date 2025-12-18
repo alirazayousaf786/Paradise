@@ -1,26 +1,26 @@
 import React from 'react'
-import Hero from "../component/hero"
-import Herolast from "../component/herolast"
-import Bunner from "../component/bunner"
-import ImageGallery from "../component/imagegallery"
-import Testimonial from '../component/textimonial'
-import Accordind from "../component/according"
-import Contact from "../component/contact"
-import LastPrium from "../component/lastprium"
-import Producs from "../component/product"
-export default function home() {
+import Hero from "../component/Hero"
+import HeroLast from "../component/HeroLast"
+import Bunner from "../component/Bunner"
+import ImageGallery from "../component/ImageGallery"
+import Textimonial from "../component/Textimonial"
+import According from "../component/According"
+import Contact from "../component/Contact"
+import LastPrium from "../component/LastPrium"
+import Product from "../component/Product"
+
+export default function Home() {
   return (
-   <>
-  
-   <Hero />
-   <Herolast />
-   <Producs />
-   <Bunner />
-   <ImageGallery />
-  <Testimonial />
-  <Accordind />
-  <Contact />
-  <LastPrium />
-   </>
+    <>
+      <Hero />
+      <HeroLast />
+      <Product />
+      <Bunner />
+      <ImageGallery />
+      <Textimonial />
+      <According />
+      <Contact />
+      <LastPrium />
+    </>
   )
 }
